@@ -17,3 +17,5 @@
 ### Computational Thinking Skills
 [View my Computational Thinking Exercise](q1/ctskillsSiliconOrtua.md)
 
+### Chinese Zodiac
+[View my Chinese Zodiac](q1/zodiacSiliconOrtua.py)
