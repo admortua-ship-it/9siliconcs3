@@ -29,16 +29,11 @@ The main problem is that the vending machine often fails to perform several func
 
 ## Step 3: Apply Computational Thinking Skills
 
-| Sub-Problem | CT Skill | Proposed Solution
-
+| Sub-Problem | CT Skill | Proposed Solution |
 |---|---|---|
-
 | The machine may sometimes give the wrong change. | Algorithmic thinking | The machine will follow a simple formula that calculates the difference between how much the item costs and how much did the user pay. |
-
 | The machine does not notify anyone if items run out. | Algorithmic thinking | The machine will update and first check if it has at least one of that item, otherwise it will explicitly notify that the item is unavailable. |
-
 | The machine sometimes outputs the wrong item. | Decomposition | The machine will split an item into many smaller data points only relevant to the function, such as position in the vending machine, and have its physical mechanisms improved. |
-
 | The machine slows when multiple students use it in succession. | Decomposition and Abstraction | The machine divides a large queue into smaller queue slots easier to focus on. Additionally, the machine's hardware will be optimized to be at its fastest if the decomposition wasn't enough. |
 
 ---
