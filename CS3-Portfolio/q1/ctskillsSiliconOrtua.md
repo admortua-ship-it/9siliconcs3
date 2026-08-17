@@ -54,10 +54,15 @@ The machine may sometimes give the wrong change.
 START
 
 stock = [items and cost]
-item_choice = stock[input(number)]
-get cost_item from item_choice in stock[number]
+
+item_choice = stock[input(given number)]
+
+get cost_item from item_choice in stock[given number]
+
 user_payment = input(ask user for payment)
+
 change = user_payment - item_choice(cost_item)
+
 give change
 
 END
