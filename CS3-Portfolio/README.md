@@ -1,12 +1,19 @@
-# 9siliconcs3
+# Computer Science 3 Portfolio
 
-# Name: Achilles David M. Ortua 
-# Email: admortua@brc.pshs.edu.ph
+## Student Information
+
+**Name:** Achilles David M. Ortua 
+
+**Section:** Silicon
 
 **School Year:** 2026-2027
 
 ---
+
 # Quarter 1
+
 ## Activities
+
 ### Computational Thinking Skills
 [View my Computational Thinking Exercise](q1/ctskillsSiliconOrtua.md)
+
