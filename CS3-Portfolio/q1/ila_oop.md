@@ -3,16 +3,16 @@
 ## Sari-Sari Store Inventory System
 
 ### 1. Encapsulation
-Your explanation here.
+Encapsulation can be applied in the inventory system by grouping different variables of data and many methods of using them into a singular object. For example, an item in stock having the metadata of an item class containing name, price, and supply, and the different processes that manage them. In terms of organization, a specific inventory action will change the remaining supply or another variable instead of letting every part of the program change it randomly.
 
 ### 2. Abstraction
-Your explanation here.
+Abstraction can be used by removing or hiding unnecessary details or data needed, helping users use something without knowing how it works, but knowing what it does. In terms of an inventory system, simple actions such as adding or selling a product or adjusting the price will be provided rather than letting the users know how it works on the inside. This helps guide users in using the system because they only need a simpler interface hiding the complicated processes.
 
 ### 3. Inheritance
-Your explanation here.
+Inheritance can be used by introducing a broad, general category containing all the necessary information, and then branching it into many sub-categories and introduce their own data but still keep the parent category's characteristics. Moreover, it helps reuse existing functions in product types instead of simply repeating it. For example, a general Product type having the core properties, and sub-categories Food, Clothing, Electronics, and others, inherit Product's core properties but contain information unique to them.
 
 ### 4. Polymorphism
-Your explanation here.
+Polymorphism in terms of inventory systems can have the same inventory action make different product types or categories respond differently. A system using polymorphism takes less effort to operate because a common interface is required to simply change data in different products in unique manners. For example, a specific action calculating the storage or supply requirement will have different product types like food or hygiene items respond differently.
 
 ## Reflection
-Answer the reflection question here.
+To be written.
