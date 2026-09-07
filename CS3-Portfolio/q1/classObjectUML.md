@@ -2,7 +2,7 @@
 
 ## Class Name: Enemy
 
-## Class Description: Represents an enemy character in a video game.
+## Class Description: Represents a very basic enemy character in a video game.
 
 ## Properties
 
@@ -14,7 +14,6 @@
 | health | int | The enemy's base health. |
 | variant | string | A slight variation of the same enemy. |
 | weight | string | The weight category of the enemy. |
-| attacksList | list[string, int] | An enemy's list of attacks, with type and damage. | 
 | canInteractWith | list[string, string, string] | A list of environmental objects the enemy can interact with along with a corresponding action and effect. |
 
 ## Methods
@@ -22,7 +21,7 @@
 | Method | Description |
 |---|---|
 | move(x speed: int, xdestination: float, ydestination: float, zdestination: float) | Makes the enemy move a certain speed towards a certain position. |
-| attack(attack: list[i]) | An attack from an established list of attacks. |
+| attack(damage: int) | An attack that deals a certain amount of damage. |
 | interact(target: canInteractWith[i]) | Interacts with a certain target via a specifc action to get a specific effect. |
 
 ## Class Diagram
