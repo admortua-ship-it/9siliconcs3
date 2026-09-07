@@ -15,7 +15,7 @@
 | variant | string | A slight variation of the same enemy. |
 | weight | string | The weight category of the enemy. |
 | attacksList | list[string, int] | An enemy's list of attacks, with type and damage. | 
-| canInteractWith | list[string, string] | A list of environmental objects the enemy can interact with along with a corresponding action. |
+| canInteractWith | list[string, string, string] | A list of environmental objects the enemy can interact with along with a corresponding action and effect. |
 
 ## Methods
 
@@ -23,7 +23,7 @@
 |---|---|
 | move(x speed: int, xdestination: float, ydestination: float, zdestination: float) | Makes the enemy move a certain speed towards a certain position. |
 | attack(attack: list[i]) | An attack from an established list of attacks. |
-| interact(target: canInteractWith[i]) | Interacts with a certain target via a specifc action. |
+| interact(target: canInteractWith[i]) | Interacts with a certain target via a specifc action to get a specific effect. |
 
 ## Class Diagram
 ![Class Diagram](images/classDiagram.png)
