@@ -9,20 +9,20 @@
 | Property | Data Type | Description |
 |---|---|---|
 | name | string | The name of the enemy. |
+| health | int | The enemy's base health. |
 | type | string | The category of the enemy. |
 | allyType | string | The enemy's preferred ally type other than themselves. |
 | rivalType | string | The enemy's rival type. |
-| health | int | The enemy's base health. |
-| damage | int | The enemy's maximum damage it can inflict on the hero. |
 | position | int | The enemy's position. |
-| speed | int | The enemy's maximum units it can move forward or backward. |
-| range | int | The enemy's required distance from the hero to execute an attack or team attack. |
 | alliesInSamePos | int | Other enemies of similar or synergy-compatible type in the same position as them. |
 | rivalsInSamePos | int | Other enemies of synergy-incompatible type in the same position as them. |
+| speed | int | The enemy's maximum units it can move forward or backward. |
+| range | int | The enemy's required distance from the hero to execute an attack or team attack. |
+| damage | int | The enemy's maximum damage it can inflict on the hero. |
 | accuracy | int | Base chance of hitting the hero or doing friendly fire with other enemies. |
 | isLeader | boolean | Dictates if an enemy is elegible for initiating a synergy attack. |
 | otherLeadersInSamePos | boolean | Looks for if there are more than one leader enemies are standing in the same position as them. |
-| synergyChance | int | Base chance of enemy attempting to initiate a synergy attack. |
+| synergyChance | int | Base chance of leader enemy attempting to initiate a synergy attack. |
 
 ## Methods
 
@@ -48,3 +48,7 @@ The type property, because it serves as the core component on the class's most c
 
 ### Which method is the most useful? Why?
 The move method because it is fundamental to the enemy because it needs to move around, besides the basicAttack method in what the enemy will do.
+
+## Design Revision:
+Changes from my previous design:
+- Organized the properties in the class diagram for cleanliness.
