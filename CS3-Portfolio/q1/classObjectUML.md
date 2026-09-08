@@ -41,7 +41,10 @@
 ## Design Explanation
 
 ### Why did you choose this class?
+I chose this class because it takes the least effort to apply the context of a video game, specifically one of its core aspects being the enemies.
 
 ### Which property is the most important? Why?
+The type property, because it serves as the core component on the class's most complex method being the typeSynergy method.
 
 ### Which method is the most useful? Why?
+The move method because it is fundamental to the enemy because it needs to move around, besides the basicAttack method in what the enemy will do.
