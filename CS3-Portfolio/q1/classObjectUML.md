@@ -48,7 +48,3 @@ The type property, because it serves as the core component on the class's most c
 
 ### Which method is the most useful? Why?
 The move method because it is fundamental to the enemy because it needs to move around, besides the basicAttack method in what the enemy will do.
-
-## Design Revision:
-Changes from my previous design:
-- Organized the properties in the class diagram for cleanliness.
