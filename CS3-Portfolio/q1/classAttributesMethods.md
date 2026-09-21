@@ -9,7 +9,7 @@ Changes from my previous design:
 
 - Organized the properties in the class diagram for cleanliness.
 - Revised the methods move, basicAttack, takeDamage, typeSynergy, and stepAside to account for attribute visibility
-- Added new method enemyInfo()
+- Added new methods death() and enemyInfo()
 
 ## Visibility Decisions
 | Attribute | Data Type | Visibility | Reason |
