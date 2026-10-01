@@ -25,3 +25,6 @@
 
 ### OOP Act Part I
 [OOP Act Part I](q1/classObjectUML.md)
+
+### OOP Act Part I
+[OOP Act Part II](q1/classAttributesMethods.md)
