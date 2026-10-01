@@ -110,7 +110,7 @@ class Hero_Character:
 
     def addEnemies(self, Enemy_Character):
         self.__enemies.append(Enemy_Character)
-        print("Enemy " + Enemy_Character._Enemy_Character__name + " added to hero's enemy list.")
+        print("Enemy " + Enemy_Character.getEnemyName() + " added to hero's enemy list.")
         print("")
 
     def heroInfo(self):
@@ -169,14 +169,14 @@ class Hero_Character:
 # Demonstration Run
 
 ## BEFORE RELATIONSHIP
-hero = Hero_Character("Zanitha", 150, 0, 5, 10, 30, 5, 10, 20)
+hero1 = Hero_Character("Zanitha", 150, 0, 5, 10, 30, 5, 10, 20)
 enemy1 = Enemy_Character("Heathcliff", "Organic", "Machine", "Angel", 100, 10, 0, 5, 10, 0, 0, 60, False, False, 20)
 enemy2 = Enemy_Character("Gabriel", "Angel", "Organic", "Machine", 200, 20, 0, 5, 10, 0, 0, 80, True, False, 40)
 enemy3 = Enemy_Character("Sentient S.S.P. Panopticon", "Machine", "Machine", "Organic", 300, 30, 0, 5, 10, 0, 0, 100, True, False, 30)
 
 print("BEFORE RELATIONSHIP")
 print("")
-hero.heroInfo()
+hero1.heroInfo()
 enemy1.enemyInfo()
 enemy2.enemyInfo()
 enemy3.enemyInfo()
@@ -185,19 +185,19 @@ print("")
 ## BUILDING RELATIONSHIP
 print("BUILDING RELATIONSHIP")
 print("")
-hero.addEnemies(enemy1)
-hero.addEnemies(enemy2)
-hero.addEnemies(enemy3)
+hero1.addEnemies(enemy1)
+hero1.addEnemies(enemy2)
+hero1.addEnemies(enemy3)
 print("")
 
 ## AFTER RELATIONSHIP
 print("AFTER RELATIONSHIP")
-for enemy in hero._Hero_Character__enemies:
+for enemy in hero1._Hero_Character__enemies:
     enemy.enemyInfo()
 print("")
 
 ### Related Object(s):
 print("Related Objects:")
-for enemy in hero._Hero_Character__enemies:
-    print(enemy.getEnemyName() + " is an enemy of " + hero.getHeroName() + ".")
+for enemy in hero1._Hero_Character__enemies:
+    print(enemy.getEnemyName() + " is an enemy of " + hero1.getHeroName() + ".")
     print("")
