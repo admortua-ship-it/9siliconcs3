@@ -33,4 +33,4 @@
 [OOP Act Part III](CS3-Portfolio/q1/classRelationships.md)
 
 ### OOP Act Part IV
-[OOP Act Part IV](CS3-Portfolio/q1/advancedRelationships.md)
+[OOP Act Part IV](q1/advancedRelationships.md)
