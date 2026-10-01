@@ -26,5 +26,8 @@
 ### OOP Act Part I
 [OOP Act Part I](q1/classObjectUML.md)
 
-### OOP Act Part I
-[OOP Act Part II](q1/classAttributesMethods.md)
+### OOP Act Part II
+[OOP Act Part II](CS3-Portfolio/q1/classAttributesMethods.md)
+
+### OOP Act Part III
+[OOP Act Part III](CS3-Portfolio/q1/classRelationships.md)
