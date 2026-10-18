@@ -34,3 +34,10 @@
 
 ### OOP Act Part IV
 [OOP Act Part IV](CS3-Portfolio/q1/advancedRelationships.md)
+
+# Quarter 2
+
+## Activities
+
+### SG8 - Encapsulation
+[Study Guide 8 - Encapsulation (Activity 3)](CS3-Portfolio/q2/sg8_encapsulation.py)
