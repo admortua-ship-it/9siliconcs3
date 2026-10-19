@@ -41,3 +41,6 @@
 
 ### SG8 - Encapsulation
 [Study Guide 8 - Encapsulation (Activity 3)](q2/sg8_encapsulation.py)
+
+### SG9 - Inheritance
+[Study Guide 9 - Inheritance (Formative Assessment No. 1)](q2/sg9_inheritance.py)
