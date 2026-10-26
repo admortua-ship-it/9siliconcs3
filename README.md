@@ -44,3 +44,6 @@
 
 ### SG9 - Inheritance
 [Study Guide 9 - Inheritance (Formative Assessment No. 1)](CS3-Portfolio/q2/sg9_inheritance.py)
+
+### SG10 - Method Overriding
+[Study Guide 10 - Method Overriding (Activity 1)](CS3-Portfolio/q2/sg10_methodOverriding.py)
