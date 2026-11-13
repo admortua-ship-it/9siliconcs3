@@ -47,3 +47,8 @@
 
 ### SG10 - Method Overriding
 [Study Guide 10 - Method Overriding (Activity 1)](q2/sg10_methodOverriding.py)
+
+### SG11 - Polymorphism
+[Study Guide 11 - Polymorphism (Activity 1)](q2/sg11_polymorphismAct1.py)
+
+[Study Guide 11 - Polymorphism (Activity 2)](q2/sg11_polymorphismAct2.md)
