@@ -10,7 +10,7 @@
         The Car class needed to have the same speak() method as the Dog and Cat classes in order to be part of the same loop.
 
 ### 2. Python Code
-[Python Code for SG11: Polymorphism, Activity 2 Item 2](CS3-Portfolio\q2\sg11_polymorphismAct2Code.py)
+[Python Code for SG11: Polymorphism, Activity 2 Item 2](sg11_polymorphismAct2Code.py)
 
 ### 3. "How does the code in 2.2 demonstrate polymorphism?"
 
